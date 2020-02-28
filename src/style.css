@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 15px;
+}
+.childrenNumberInfo {
+  display: none;
+}
+
+
+.operator {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: initial;
+}

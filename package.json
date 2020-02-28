@@ -1,0 +1,44 @@
+{
+  "name": "select-student-v20",
+  "version": "1.0.0",
+  "description": "新版学生选择控件",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --client-log-level warning --config webpack.config.js",
+    "build": "webpack --config webpack.config.build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": ">0.01%, not ie <=8",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-syntax-jsx": "^7.7.4",
+    "@babel/plugin-transform-react-jsx": "^7.7.7",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/parser": "^2.13.0",
+    "autoprefixer": "^9.7.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.6.4",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "core-js": "^3.3.6",
+    "preact": "^10.1.1"
+  }
+}

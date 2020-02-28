@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  </style>
+</head>
+<body>
+  <p>整体代码地址：<a href="https://github.com/towersxu/code-floding">https://github.com/towersxu/code-floding</a></p>
+  <div style="width: 1200px;height: 1200px;" id="editor">
+  </div>
+  <script src="./code-floding.js"></script>
+  <script>
+    window.onload = function () {
+      var js = new formatJSON(JSON.stringify({
+        "name": "xutao",
+        "age": 29,
+        "address": {
+          "country": "china",
+          "city": "beijing",
+          "address1": {
+            "country": "earth",
+            "loction": "mainland"
+          },
+          "address2": {
+            "country": "china",
+            "city": "beijing",
+            "city2": "beijing",
+            "city23": "beijing"
+          }
+        },
+      }), document.querySelector('#editor'))
+    }
+    
+  </script>
+</body>
+</html>
