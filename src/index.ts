@@ -83,17 +83,6 @@ export class formatJSON {
   }
   createTreeItem (tag: string) {
     const li = document.createElement('li')
-    switch(tag) {
-      // case '{':
-      //   li.append(tag)
-      //   li.append('-')
-        
-      //   break
-      default:
-        li.append(tag)
-        li.append(':')
-        console.warn('未处理的类型')
-    }
     return li
   }
   createItemValue (value: string): HTMLElement {
